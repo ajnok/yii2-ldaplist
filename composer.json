@@ -1,0 +1,21 @@
+{
+    "name": "ajnok/yii2-ldaplist",
+    "description": "GUI Manager for listing user from LDAP to DB",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mr.Eakkarath Panyathep",
+            "email": "ajnokit@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ajnok\\ldaplist\\": ""
+        }
+    }
+}
