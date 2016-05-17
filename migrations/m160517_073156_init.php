@@ -20,7 +20,7 @@ class m160517_073156_init extends Migration
             'registered_at' => $this->integer(),
             'created_at' => $this->integer(),
             'updated_at' => $this->integer(),
-            'employee_id' => $this->smallInteger(),
+            'employee_id' => $this->integer(),
         ], $tableOptions);
         
         $this->createTable('employee', [
